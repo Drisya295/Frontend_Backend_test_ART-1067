@@ -1,0 +1,17 @@
+Prerequisites:
+Docker installed on your machine.
+Steps:
+Clone the repository:
+
+
+git clone <repository-url>
+cd <repository>
+Start the Backend and Frontend using Docker Compose:
+
+
+docker-compose up --build
+Access the Application:
+
+Backend API: http://localhost:5000
+Frontend: http://localhost:3000
+This setup provides a production-ready system with a fully Dockerized environment. The backend and frontend can be built, run, and maintained independently while leveraging modern best practices.
