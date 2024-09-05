@@ -1,0 +1,21 @@
+Backend/
+??? Controllers/
+?   ??? CafesController.cs        # Manages all endpoints for cafes
+?   ??? EmployeesController.cs    # Manages all endpoints for employees
+??? Models/
+?   ??? Cafe.cs                   # Cafe entity model
+?   ??? Employee.cs               # Employee entity model
+??? Repositories/
+?   ??? ICafeRepository.cs        # Interface for Cafe repository
+?   ??? IEmployeeRepository.cs    # Interface for Employee repository
+?   ??? CafeRepository.cs         # Implementation of Cafe repository
+?   ??? EmployeeRepository.cs     # Implementation of Employee repository
+??? Services/
+?   ??? CafeService.cs            # Business logic for Cafe
+?   ??? EmployeeService.cs        # Business logic for Employee
+??? Data/
+?   ??? ApplicationDbContext.cs   # MySQL Database context
+??? Migrations/                   # Auto-generated migrations folder for database schema
+??? Dockerfile                    # Docker file for the .NET backend
+??? appsettings.json              # Contains MySQL connection string
+??? Program.cs                    # Configures services, DB connection, and starts the app
