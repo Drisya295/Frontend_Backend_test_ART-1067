@@ -1,0 +1,16 @@
+Frontend/
+??? src/
+?   ??? api/
+?   ?   ??? cafeApi.js           # API calls for Cafes
+?   ?   ??? employeeApi.js       # API calls for Employees
+?   ??? components/
+?   ?   ??? CafeForm.js          # Reusable Cafe form (Add/Edit)
+?   ?   ??? EmployeeForm.js      # Reusable Employee form (Add/Edit)
+?   ??? pages/
+?   ?   ??? CafePage.js          # Displays Cafes with CRUD operations
+?   ?   ??? EmployeePage.js      # Displays Employees with CRUD operations
+?   ??? App.js                   # Main app component
+?   ??? routes.js                # Tanstack Router setup
+??? Dockerfile                   # Dockerfile for the frontend
+??? package.json                 # Project dependencies
+??? vite.config.js               # Vite configuration
